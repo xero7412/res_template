@@ -1,0 +1,152 @@
+body {
+  font: 20px 'courier';
+  line-height: 1.5;
+  position: relative; 
+  letter-spacing: 0.5px;
+}
+
+.container-fluid1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size:30px;
+}
+
+.navbar {
+  padding-top: 12px;
+  padding-bottom: 11px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 23px;
+  letter-spacing: 2px;
+  font-family: 'courier new';
+  background-color:rgb(112, 128, 144);
+}
+
+.navbar-nav  li a:link{color:white !important;}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background: rgb(101, 116, 131);
+}
+
+.navbar-nav  li a:visited,a:hover { 
+  background-color:rgb(112, 128, 144) ;
+  box-shadow: 0 24px 30px 0 rgba(0, 0, 0, 0.651),0 17px 50px 0 rgba(0,0,0,0.24);
+  -webkit-transition-duration: 0.3s; /* Safari */
+  transition-duration: 0.5s;
+  padding-top: 15px;
+  padding-bottom:15px;
+  color: white !important;
+}
+
+img{ width:100%;}
+
+#section1 { color:rgb(168, 121, 121);}
+
+#content1 {
+  padding-top:10%;
+  padding-bottom:5%; 
+  background-color:rgb(168, 121, 121); 
+  font-size: 30px; 
+  padding-left:4%; 
+  color:white;
+}
+
+#bg2{
+  background-color:rgb(32, 178, 171);
+  color:white;
+}
+#section2{color:white;}
+#tags1{
+  padding-top:2%;
+  padding-bottom:2%;
+  width:100%;
+  background-color: rgb(32, 178, 171);
+  color:white;
+  border-radius:10px 40px 10px 40px;
+  font-family:'Courier New';
+  font-size:25px;
+  transition-duration: 0.3s;
+}
+.btn a:link{
+  color:white;
+}
+
+#bckimg{
+  position:relative;
+  width: 100%;
+  background-size: 100% 100%;
+  border-radius:150px 0px 0px 150px;
+}
+
+#bg3{
+  background-color:rgb(216, 120, 120);
+  color:white;
+}
+#section3{
+  color:rgb(216, 120, 120);
+  text-align: center;
+  padding-bottom: 5%;
+}
+#tags{
+  padding-top:6%;
+  padding-bottom:4%;
+  width:100%;
+  background-color: rgb(216, 120, 120);
+  color:white;
+  border-radius:0px 0px 40px 40px;
+  font-family:'Courier New';
+  font-size:25px;
+  transition-duration: 0.3s;
+}
+
+#bg4{
+  background-color:rgb(57, 125, 180);
+  color:white;
+}
+#bg5{
+  background-color:rgb(57, 125, 180);
+  color:white;
+}
+
+#bg6{ 
+  background-color:rgb(101, 116, 131);
+  color:white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 66px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  text-decoration:none;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
